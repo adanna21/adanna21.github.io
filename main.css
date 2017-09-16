@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    font-family: "Courier";
+}
+
+header {
+    width: 100vw;
+    background: url("qa.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+#name {
+    position: absolute;
+    color: rgba(255,255,255,0.7);
+    text-shadow: 0px 0px 10px #FFF;
+    font-size: 50px;
+    margin-top: 20%; 
+    margin-left: 10%;
+}
+#container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    display: block;
+    margin-top: 10%;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#column1 {
+    flex: 1;
+    height: 90vh;
+    background-color: azure; 
+}
+#column2 {
+    flex: 3;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+#info-image1 {
+/*    position: absolute;*/
+    flex: 1;
+    width: 100%;;
+    background: url("project.jpg");
+    background-size: cover;
+    
+}
+#info-image2 {
+    flex: 1;
+    background-color: #f5eff0;
+    padding: 5%;
+}
+h2 {
+    margin-bottom: 2%;
+}
+p {
+    line-height: 30px;
+}
+#column3 {
+    flex: 1;
+    height: 90vh;
+    background-color: azure; 
+    color: 
+}
+footer {
+    height: 5vh;
+    width: 100vw;
+    background-color: aqua;
+}
